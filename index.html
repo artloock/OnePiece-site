@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto One Piece</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;700&family=Fjalla+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/One piece.png" alt="Logo X-Man">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="Luffy" data-name="Luffy" data-description="Oi! Eu sou o Luffy, o futuro Rei dos Piratas! Eu tenho uma tripulação muito legal e nós vamos encontrar o One Piece! Eu posso esticar meu corpo como borracha porque eu comi uma fruta estranha. Meu pai é um cara importante e meu avô é um velho chato. Eu gosto de aventuras e de carne!">
+                    <img src="./src/imagens/Luffy cartaz.jpg" alt="peronagem Luffy">
+                </li>
+                <li class="personagem" id="Zoro" data-name="Zoro" data-description="Eu sou Zoro, o espadachim dos Piratas do Chapéu de Palha. Eu não me importo com nada além de me tornar o maior espadachim do mundo. Eu uso três espadas ao mesmo tempo, uma na boca e duas nas mãos. Eu inventei esse estilo sozinho e ninguém pode me superar nele. Eu sou chamado de “Caçador de Piratas” Zoro porque eu costumava caçar criminosos por dinheiro. Agora eu tenho uma recompensa de 320.000.000 na minha cabeça, mas isso não me assusta. Eu sou fiel ao meu capitão Luffy e aos meus companheiros de tripulação, mas eu não gosto de seguir ordens. Eu sou corajoso e determinado, mas eu tenho um problema com direção. Eu sempre me perco e acabo em lugares estranhos. Mas isso não importa, desde que eu possa lutar contra os inimigos mais fortes e provar o meu valor.">
+                    <img src="./src/imagens/zoro.jpg" alt="personagem Zoro">
+                </li>
+                <li class="personagem" id="Usopp" data-name="Usopp" data-description="Eu sou Sogeking, amigo do Usopp. Usopp é atirador, inventor, filho de Yasopp. Usa Kabuto e Haki. Recompensa: 500.000.000.">
+                    <img src="./src/imagens/usopp.jpg" alt="personagem Usopp">
+                </li>
+                <li class="personagem" id="Nami" data-name="Nami" data-description="Eu sou Nami, a navegadora e ladra dos Chapéus de Palha. Eu tenho um cabelo laranja lindo, olhos castanhos expressivos e uma tatuagem de pinwheel e laranja no meu ombro esquerdo. O meu sonho é desenhar um mapa do mundo inteiro e viajar por todos os mares. Eu amo dinheiro e laranjas, e odeio gente mesquinha e injusta. Eu uso um Log Pose para me guiar pela Grand Line, um Clima-Tact para controlar o clima e roupas variadas para ficar sempre na moda. Eu tenho uma recompensa de 366.000.000 por ser uma das melhores navegadoras do mundo e uma das parceiras do Luffy. Eu também sou a irmã adotiva da Nojiko, que eu amo muito.">
+                    <img src="./src/imagens/Nami.jpg" alt="personagem Nami">
+                </li>
+                <li class="personagem" id="Chopper" data-name="Chopper" data-description="Eu sou Nami, a navegadora e ladra dos Chapéus de Palha. Eu tenho um cabelo laranja lindo, olhos castanhos expressivos e uma tatuagem de pinwheel e laranja no meu ombro esquerdo. O meu sonho é desenhar um mapa do mundo inteiro e viajar por todos os mares. Eu amo dinheiro e laranjas, e odeio gente mesquinha e injusta. Eu uso um Log Pose para me guiar pela Grand Line, um Clima-Tact para controlar o clima e roupas variadas para ficar sempre na moda. Eu tenho uma recompensa de 366.000.000 por ser uma das melhores navegadoras do mundo e uma das parceiras do Luffy. Eu também sou a irmã adotiva da Nojiko, que eu amo muito.">
+                    <img src="./src/imagens/Chopper.jpg" alt="personagem Chopper">
+                </li>
+                <li class="personagem" id="Robin" data-name="Robin" data-description="Eu sou Robin, a arqueóloga dos Piratas do Chapéu de Palha e uma das oficiais seniores da Grande Frota do Chapéu de Palha. Eu comi a fruta Hana Hana no Mi, que me permite criar flores que são réplicas dos meus membros em qualquer superfície. Eu sou a única sobrevivente de Ohara, a ilha dos arqueólogos que foi destruída pelo Governo Mundial. Eu sou a única pessoa no mundo capaz de ler e decifrar os Poneglyphs, as pedras antigas que contam a verdadeira história. Eu fui vice-presidente da Baroque Works sob o codinome Miss All Sunday, mas me juntei aos Chapéus de Palha depois de conhecer o Luffy. O meu sonho é encontrar o Rio Poneglyph, que revela o Século Perdido. Eu tenho uma recompensa de 930.000.000 e sou conhecida como “Criança Demônio” e “Luz da Revolução”">
+                    <img src="./src/imagens/Robin.jpg" alt="personagem Robin">
+                </li>
+                <li class="personagem" id="Franky" data-name="Franky" data-description="Eu sou Franky, o carpinteiro dos Piratas do Chapéu de Palha e um dos oficiais seniores da Grande Frota do Chapéu de Palha. Eu sou um cyborg que construiu o meu próprio corpo com peças de sucata. Eu sou o líder dos Franky Family, um grupo de desmontadores de navios que vivem em Water 7. Eu me juntei aos Chapéus de Palha depois de construir o seu navio, o Thousand Sunny. O meu sonho é criar e navegar no navio que irá levar o Luffy ao One Piece. Eu tenho uma recompensa de 94.000.000 e sou conhecido como “Cyborg” Franky e “Carpinteiro do Futuro”.">
+                    <img src="./src/imagens/Frank.jpg" alt="personagem Franky">
+                </li>
+                <li class="personagem" id="Brook" data-name="Brook" data-description="Eu sou Brook, o músico dos Piratas do Chapéu de Palha e um dos oficiais seniores da Grande Frota do Chapéu de Palha. Eu sou um esqueleto que comeu a fruta Yomi Yomi no Mi, que me permite reviver depois de morrer uma vez. Eu sou o último sobrevivente da tripulação do Rumbar Pirates, que morreu há 50 anos no Triângulo Florian. Eu me juntei aos Chapéus de Palha depois de recuperar a minha sombra, que foi roubada por Gecko Moria. O meu sonho é reencontrar Laboon, a baleia que esperou por mim na Reverse Mountain. Eu tenho uma recompensa de 83.000.000 e sou conhecido como “Rei da Alma” e “Cavaleiro do Mar”.">
+                    <img src="./src/imagens/Brook.jpg" alt="personagem Brook">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/Transparent-Luffy-Background.png" alt="Personagem Selecionado" >
+            <div class="Informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Luffy</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Oi! Eu sou o Luffy, o futuro Rei dos Piratas! Eu tenho uma tripulação muito legal e nós vamos encontrar o One Piece! Eu posso esticar meu corpo como borracha porque eu comi uma fruta estranha. Meu pai é um cara importante e meu avô é um velho chato. Eu gosto de aventuras e de carne!</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/file.js"></script>
+</body>
+
+</html>
